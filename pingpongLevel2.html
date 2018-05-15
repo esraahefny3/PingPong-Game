@@ -1,0 +1,112 @@
+<html>
+
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="./css/pingpong.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	
+
+	</head>
+
+	<body id="level2"  onmousemove="moveMouse(event)">
+		<div  id="border">
+			<div>
+				<image  id="ball" src="./imgs/ball2.png"/>
+			</div>
+
+			<div >
+				<image class="player" id="player1" src="./imgs/mdrb1.jpg"/>
+			</div> 
+
+			<div >
+				<image class="player" id="player2" src="./imgs/mdrb1.jpg"/>
+			</div>
+
+		</div>
+     
+		<div id="data">
+       <h1><span  >Level 2</span></h1>
+       <span  class="myFont" >Max Score:<span id="maxScore"></span></span>
+      <div>
+        <span  class="myFont" >Timer:<span id="timer"></span></span>
+      </div>
+      <div>
+        <span  class="myFont" >Score:<span id="score"></span></span>
+      </div>
+    </div>
+
+<a href="#" data-toggle="modal" data-target="#gameOver" id="gameOverButton" hidden></a>		
+		   <!-- Modal -->
+  <div class="modal fade" id="gameOver" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" >
+          <h3><span ></span> Game Over</h3>
+        </div>
+
+        <div class="modal-body" >
+            <div class="form-group">
+              <h5><span class="myFont">Score:<span id="playerScore"></span></span></h5>
+            </div>
+        </div>
+        
+        <div class="modal-footer">
+        	<p class="text-center">
+	            <a href="./pingpongLevel2.html" class="btn btn-primary"><i class="fa fa-sign-in"></i> Play again</a>  
+	            <a href="#" class="btn btn-primary"><i class="fa fa-sign-in"></i> Home</a> 
+	        </p>
+        	
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+
+
+
+<a href="#" data-toggle="modal" data-target="#winning" id="winningButton" hidden></a>		
+		   <!-- Modal -->
+  <div class="modal fade" id="winning" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" >
+          <h3><span ></span> Congratulations !</h3>
+        </div>
+
+        <div class="modal-body" >
+            <div class="form-group">
+              <h5><span>You won!</h5>
+              <h5><span>Score:<p id="playerScoreWinning"></p></span></h5>
+            </div>
+        </div>
+        
+        <div class="modal-footer">
+        	<p class="text-center">
+            <a href="./pingpongLevel2.html" class="btn btn-primary"><i class="fa fa-sign-in"></i> Play again</a>  
+            <a href="#" class="btn btn-primary"><i class="fa fa-sign-in"></i> Home</a>  
+        </p>
+        	
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+	</body>
+
+	
+	   <!-- *** SCRIPTS TO INCLUDE ***
+ _________________________________________________________ -->
+
+<script src="./js/pingpongLevel2.js"></script>
+
+
+
+
+</html>

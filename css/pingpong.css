@@ -1,0 +1,85 @@
+
+#ball{
+	position: absolute;
+	width:50px;
+	height:50px;
+}
+
+#player1{
+
+
+	left: 0px;
+	top: 200px;
+
+}
+
+#player2{
+
+
+	left: 940px;
+	top: 200px;
+
+}
+
+.player{
+	position: absolute;
+	width:60px;
+	height:200px;
+}
+
+
+#border{
+
+	position: relative;
+	margin-left:250px;
+	margin-top:40px;
+	border-style: solid;
+	border-width: 6px;
+ 	border-color: black;
+ 	width:1000px;
+	height:600px;
+}
+
+
+#data{
+	  position: absolute;
+	  left:1300px;
+   	  top:120px;
+   	  background-color: white;
+   	  opacity: 0.65;
+    width:170px;
+    
+	
+}
+
+
+.myFont{
+	  font-size: 20px;
+}
+.modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+  #level1
+  {
+  	background:  url('../imgs/level2.jpg') ;
+  	background-color: white;
+ }
+ 
+   #level2
+  {
+  	background:  url('../imgs/1.jpg') ;
+  	background-color: black;
+  	background-repeat: no-repeat;
+  	background-position: center;
+ }
+
+body{
+	background-color: black;
+}
